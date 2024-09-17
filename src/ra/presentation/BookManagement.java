@@ -149,7 +149,7 @@ public class BookManagement {
                         bookType.setDescription(sc.nextLine());
                         break;
                     case 3:
-                        System.out.println("Nhập trạng thái:");
+                        System.out.println("Nhập trạng thái - false là chưa xóa, true là đã xóa::");
                         bookType.setDeleted(Boolean.parseBoolean(sc.nextLine()));
                         break;
                     case 4:
@@ -259,7 +259,7 @@ public class BookManagement {
                         book.setTypeId(Integer.parseInt(sc.nextLine()));
                         break;
                     case 9:
-                        System.out.println("Nhập trạng thái:");
+                        System.out.println("Nhập trạng thái - false là chưa xóa, true là đã xóa::");
                         book.setDeleted(Boolean.parseBoolean(sc.nextLine()));
                         break;
                     case 0:

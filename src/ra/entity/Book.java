@@ -130,7 +130,7 @@ public class Book implements IBookManagement{
         this.Price = Double.parseDouble(scanner.nextLine());
         System.out.println("Mã loại sách:");
         this.TypeId = Integer.parseInt(scanner.nextLine());
-        System.out.println("Trạng thái:");
+        System.out.println("Trạng thái - false là chưa xóa, true là đã xóa:");
         this.IsDeleted = Boolean.parseBoolean(scanner.nextLine());
     }
 

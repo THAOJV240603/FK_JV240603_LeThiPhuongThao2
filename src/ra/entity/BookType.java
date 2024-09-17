@@ -58,7 +58,7 @@ public class BookType implements IBookManagement{
         this.TypeName = scanner.nextLine();
         System.out.println("Mô tả:");
         this.Description = scanner.nextLine();
-        System.out.println("Trạng thái:");
+        System.out.println("Trạng thái - false là chưa xóa, true là đã xóa::");
         this.IsDeleted = Boolean.parseBoolean(scanner.nextLine());
     }
 
